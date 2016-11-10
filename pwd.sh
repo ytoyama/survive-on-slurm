@@ -1,3 +1,6 @@
 #!/bin/sh
 
-pwd
+echo PWD: $(pwd)
+echo HOSTNAME: $(hostname)
+echo OS:
+cat /etc/os-release
