@@ -1,0 +1,3 @@
+#!/bin/sh
+
+taskset -c "$@"
