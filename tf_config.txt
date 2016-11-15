@@ -2,17 +2,12 @@
 
 
 
-
 y
-/home-nfs/ytoyama/anaconda3/bin/gcc
+
 7.5
 /share/data/vision-greg/common/cuda-7.5
 5.1
 /share/data/vision-greg/common/cudnn-5.1
-
-
-
-
 
 
 

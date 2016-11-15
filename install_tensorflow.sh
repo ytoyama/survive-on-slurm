@@ -35,6 +35,7 @@ then
 fi &&
 
 cd tensorflow &&
+git checkout r0.11 &&
 ./configure < $HOME/bin/tf_config.txt &&
 bazel build -c opt --config=cuda //tensorflow/tools/pip_package:build_pip_package &&
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg &&
