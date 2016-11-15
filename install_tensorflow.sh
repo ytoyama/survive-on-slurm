@@ -11,6 +11,14 @@ export CC=$HOME/anaconda3/bin/gcc
 export LIBRARY_PATH=$HOME/anaconda3/lib64
 export LD_LIBRARY_PATH=$LIBRARY_PATH
 
+for bin in as ld nm
+do
+  if [ ! -f $HOME/anaconda3/bin/$bin ]
+  then
+    ln -s /usr/bin/$bin $HOME/anaconda3/bin/$bin
+  fi
+done
+
 mkdir -p $scratch_dir &&
 mkdir -p $bazel_dir &&
 
