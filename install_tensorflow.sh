@@ -4,6 +4,8 @@ scratch_dir=/scratch/ytoyama
 bazel_dir=$scratch_dir/bazel
 
 export PATH=/share/data/vision-greg/common/gcc-4.9.2/bin:$PATH
+export CFLAGS="-march=k8 -mtune=generic"
+export CXXFLAGS=$CFLAGS
 
 mkdir $scratch_dir &&
 mkdir $bazel_dir &&
