@@ -3,7 +3,8 @@
 scratch_dir=/scratch/ytoyama
 bazel_dir=$scratch_dir/bazel
 
-HOMEBREW_MAKE_JOBS=2 brew install gcc &&
+export PATH=/share/data/vision-greg/common/gcc-4.9.2/bin:$PATH
+
 mkdir $scratch_dir &&
 mkdir $bazel_dir &&
 ln -s $bazel_dir $HOME/.cache/bazel &&
