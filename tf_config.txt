@@ -4,7 +4,7 @@
 
 
 y
-/home-nfs/ytoyama/.linuxbrew/bin/gcc
+/home-nfs/ytoyama/anaconda3/bin/gcc
 7.5
 /share/data/vision-greg/common/cuda-7.5
 5.1
