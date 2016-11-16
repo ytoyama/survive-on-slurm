@@ -1,3 +1,5 @@
+#!/bin/sh
+
 top -bn1 -u ytoyama
 
 if [ -x nvidia-smi ]
